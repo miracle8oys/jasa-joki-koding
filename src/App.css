@@ -36,3 +36,253 @@
     transform: rotate(360deg);
   }
 }
+
+.form-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+
+
+.register input {
+  background-color: rgb(204, 204, 204);
+  border-radius: 0.3rem;
+  height: 2.5rem;
+}
+.register textarea {
+  background-color: rgb(204, 204, 204);
+  border-radius: 0.3rem;
+  height: 3.5rem;
+}
+
+.input-desc {
+  display: grid;
+  margin-bottom: 1rem;
+} 
+.register button {
+  background-color: orange;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.form-container input, button {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+.nav-class{
+  display: flex;
+  grid-gap: 0.5rem;
+}
+.nav-class button {
+  height: 4.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+.opponents img {
+  max-width: 3rem;
+  max-height: 3rem;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  filter: drop-shadow(0.35rem 0.35rem 0.5rem rgba(241, 137, 17, 0.5));
+}
+
+.room {
+  display: grid;
+  width: 90vw;
+  justify-content: center;
+}
+
+.btn-active {
+  background-color: orange;
+}
+.btn-passive {
+  background-color: rgb(56, 55, 55);
+
+}
+
+.opponents-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav-content {
+  color: white;
+  background-color: rgb(56, 55, 55);
+  display: flex;
+  grid-gap: 42rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.nav-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+}
+
+.nav-link {
+  display: flex;
+  grid-gap: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 70vw;
+  margin-top: 3rem;
+}
+
+.card {
+  color: white;
+  background-color: rgb(56, 55, 55);
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  min-height: 15rem;
+}
+
+.card-row {
+  display: flex;
+  margin-top: -1.5rem;
+  margin-bottom: -1rem;
+}
+
+.card-row button {
+  width: 5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+}
+
+.col {
+  margin-bottom: 1rem;
+}
+
+.card-title h5{
+  display: grid;
+  margin-top: 2.2rem;
+  margin-bottom: -1rem;
+  margin-left: 0.5rem;
+  color: orange;
+}
+.card-title p{
+  display: grid;
+  
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  display: flex;
+  grid-gap: 2rem;
+}
+
+form label {
+  font-weight: 700;
+}
+
+.close-btn {
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+.introduce {
+  width: 50vw;
+}
+
+.true-btn {
+  font-size: 3rem;
+  color: rgb(202, 132, 2);
+}
+
+.true-btn:hover{
+  color: rgb(104, 70, 7);
+}
+
+.admin-container {
+  display: grid;
+  justify-content: center;
+}
+
+.admin-head  p{
+  font-weight: 700;
+}
+
+.admin a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 720px) {
+  .register {
+    width: 30vw;
+    text-align: center;
+    background-color: white;
+    padding: 3rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+  }
+  .introduce {
+    width: 50vw;
+  }
+
+  .admin {
+    width: 50vw;
+  }
+  .admin .row {
+    display: flex;
+    grid-gap: 1rem;
+  }
+
+  .admin .col {
+    width: 12.5vw;
+  }
+}
+
+.btn-detail {
+  width: 30vw;
+}
+
+
+@media (max-width: 576px) {
+  .register {
+    width: 90vw;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+  }
+  .introduce {
+    width: 80vw;
+  }
+  .admin {
+    width: 95vw;
+  }
+  .admin .row {
+    display: flex;
+    grid-gap: 1rem;
+  }
+
+  .admin .col {
+    width: 22.5vw;
+  }
+}
